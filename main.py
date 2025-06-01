@@ -5,17 +5,17 @@
 # total = (bill_amount)/members
 # print(f"Each pay ${round(total, 2)}")
 
-# weight = 1
-# height = 1.85
-#
-# bmi = weight / (height ** 2)
-#
-# if(bmi<18.5):
-#     print("Underweight")
-# elif(bmi>=18.5 and bmi<25):
-#     print("Normal weight")
-# else:
-#     print("Overweight")
+weight = float(input("What is your weight? "))
+height = float(input("What is your height? "))
+
+bmi = weight / (height ** 2)
+
+if(bmi<18.5):
+    print("Underweight")
+elif(bmi>=18.5 and bmi<25):
+    print("Normal weight")
+else:
+    print("Overweight")
 
 
 import random
